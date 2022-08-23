@@ -48,6 +48,8 @@ foreman start -f Procfile.dev
 - If you're not authenticated, the site will re-direct to `http://localhost:5000/users/sign_in`
 - Here you can authenticate with Username/Password, or with the SSO you set up with WorkOS
 - To authenticate with SSO, input the domain you used to set up your WorkOS connection, and select the `Sign in with SSO` button
+- After you sign in with SSO, it will take you to the Okta login page 
+- For email input: sgrant@2u.com and the password: demoaccount02*
 - After successfully authenticating, you should see a JSON print out of your user information
 
 For more information, see the [WorkOS Ruby SDK documentation](https://docs.workos.com/sdk/ruby).
